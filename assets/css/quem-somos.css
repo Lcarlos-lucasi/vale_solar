@@ -1,5 +1,5 @@
 .quem-somos {
-    padding: 5rem;
+    
     text-align: center;
 }
 
@@ -59,10 +59,7 @@
 
 }
 
-.pessoa__imagem--roberta {
-   background-image: url("../img/pessoas/roberta.jpg"); 
 
-}
 .negocio__imagem {
     background-image: url("../img/area_comercial.jpg"); 
  
@@ -80,6 +77,13 @@
 
 
 @media screen and (min-width: 0) {
+    
+    .quem-somos {
+        padding: 1rem;
+        
+    }
+    
+    
     .pessoas {
         flex-direction: column;
         justify-content: center;
@@ -102,6 +106,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    
+    .quem-somos {
+        padding: 5rem;
+        
+    }
     .pessoas {
         flex-direction: row;
         justify-content: space-around;

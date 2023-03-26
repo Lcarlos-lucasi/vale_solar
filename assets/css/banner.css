@@ -1,7 +1,8 @@
 .banner {
     position:relative;
 
-    height: calc(100vh - 10px);
+    /*height: calc(100vh - 10px);*/
+    height: 100vh;
     width: 100%;
 
     background: url(../img/Foto_Energia_solar_residencial.webp) no-repeat center / cover ;
@@ -35,7 +36,7 @@
 
 @media screen and (min-width: 0) {
     .banner__titulo {
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     .banner__img{
