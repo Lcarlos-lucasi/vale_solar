@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 0) {
     .cabecalho {
-        justify-content: center;
+        justify-content:space-around;
         padding: 0 0.8rem;
         
     }
@@ -58,10 +58,11 @@
     .cabecalho__menu___lista {
         display: flex;
         flex-direction: column;
+        align-items:center;
     }
 
     .cabecalho__menu__lista-item {
-        margin-right: 0.5rem;
+        /*margin-right: 0.5rem;*/
         font-size: 1.3rem;
     
     }
